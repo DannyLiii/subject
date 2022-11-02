@@ -35,6 +35,7 @@ a:hover{color: #0073B4;}
     width: 1280px;
     height: 127px;
     margin: 0 auto;
+    margin-bottom: 50px;
     /* padding-top: 5px; */
     background-image: url(../img/title\ background_blue.png);
     background-repeat: no-repeat;
@@ -44,6 +45,7 @@ a:hover{color: #0073B4;}
 .tit2 {
     width: 1280px;
     height: 127px;
+    margin-bottom: 50px ;
 
 
     background-image: url(../img/title\ background_org.png);
@@ -156,7 +158,7 @@ h2 {
     height: 253px;
     margin-top: 100px;
     margin-left: 50px;
-    padding: 70px 0;
+    padding: 80px 0 70px;
     font-size: 32px;
     text-align: center;
     float: left;
@@ -175,11 +177,14 @@ h2 {
 
 .str {
     width: 1280px;
-    height: 1285px;
+    height: 1400px;
     background-image: url(../img/stary-background.png);
     background-repeat: no-repeat;
     margin: 0 auto;
-    padding-top: 80px;
+    padding-top: 150px;
+}
+.str baclground-img{
+    width: 1280px;
 }
 
 .str .tit2 h1 {
@@ -211,8 +216,9 @@ h2 {
 }
 
 .str h3 {
-    font-size: 32px;
+    font-size: 30px;
     margin-left: 10px;
+    text-align: center;
 }
 
 .str p {
@@ -414,7 +420,6 @@ h2 {
     background-repeat: no-repeat;
     margin: 50px auto 0px;
     padding-top: 15px;
-
 }
 
 .contact ul {
@@ -427,6 +432,13 @@ h2 {
 .icon {
     margin-left: 50px;
     float: left;
+}
+.icon a {
+    text-decoration: none;
+}
+.icon a p {
+    text-align: center;
+    color: white;
 }
 
 .icon1 {
@@ -498,16 +510,25 @@ h3 {
     text-align: center;
 }
 
-/* ------------------------------------關於------------------------------------ */
+/* ------------------------------------關於我們------------------------------------ */
 
 .slo {
     width: 1280px;
     margin: 0 auto;
 }
 
-.slo_img img {
+.slo_img {
+    background-image: url(../img/about.png);
     width: 1280px;
     height: 400px;
+}
+
+.slo_img h2{
+    padding: 170px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    color: white;
+    text-align: center;
 }
 
 .slo_txt p {
@@ -559,7 +580,7 @@ h3 {
 
 .icon1 {
     margin-top: 50px;
-    margin-left: 150px;
+    margin-left: 140px;
     margin-bottom: 50px;
 }
 
@@ -578,7 +599,7 @@ h3 {
 .vol_box {
     width: 1280px;
     height: 625px;
-    background-image: url(../img/vol_people.png);
+    background-image: url(../img/vol_people.png);   
     background-position: center;
     background-repeat: no-repeat;
     margin: 0;
