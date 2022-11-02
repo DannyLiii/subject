@@ -16,7 +16,7 @@ a:hover{color: #0073B4;}
 }
 
 /* 按鈕 */
-.more {
+.more ,.more2{
     background-color: #FFBA45;
     color: white;
     width: 150px;
@@ -30,7 +30,7 @@ a:hover{color: #0073B4;}
     overflow: hidden;
     display: block;
 }
-
+.more2:hover{color: #CFEEFF;}
 .tit1 {
     width: 1280px;
     height: 127px;
@@ -415,7 +415,7 @@ h2 {
 
 .contact {
     width: 1280px;
-    height: 415px;
+    height: 455px;
     background-image: url(../img/contact_background.png);
     background-repeat: no-repeat;
     margin: 50px auto 0px;
@@ -423,12 +423,14 @@ h2 {
 }
 
 .contact ul {
-    width: 700px;
-    height: 200px;
-    margin: 50px auto 50px;
-    margin-left: 350px;
+    width: 1000px;
+    height: 00px;
+    margin:0 auto 50px;
 }
-
+.icon img {
+    width: 80px;
+    margin: 0 auto;
+}
 .icon {
     margin-left: 50px;
     float: left;
@@ -577,8 +579,12 @@ h3 {
     margin-left: 50px;
 }
 
+.cn_icon{
+    width: 1000px;
+    margin: 0 auto;
+}
 
-.icon1 {
+.icon {
     margin-top: 50px;
     margin-left: 140px;
     margin-bottom: 50px;
