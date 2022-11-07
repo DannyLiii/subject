@@ -379,8 +379,7 @@ h2 {
     font-size: 16px;
     text-decoration: none;
     float: right;
-    display: inline-block;
-    vertical-align: middle;
+    display:block;
     position: relative;
 }
 
@@ -784,14 +783,22 @@ h3 {
 }
 
 .dog_2 {
+    width: 350px;
+    height: 450px;
     margin-top: 30px;
     float: left;
-    margin-left: 50px;
+    margin-left: 60px;
+    box-shadow: 12px 12px 20px #000;   
+    margin-bottom: 100px; 
 }
 
 .dog_1 {
+    width: 350px;
+    height: 450px;
     margin-top: 30px;
     float: left;
+    box-shadow: 12px 12px 20px #000;
+    
 }
 
 .dog_box li a img {
@@ -934,6 +941,20 @@ h3 {
     top: -225px;
 }
 
+.edu_img_box {
+    display: block;
+    float: right;
+    width: 350px;
+}
+
+.edu_img{
+    transform: scale(1,1);
+    transition: all 0.5s ease-out;
+}
+.edu_img:hover{
+    transform: scale(1.1,1.1);
+}
+
 .title_all p3 {
     display: block;
     float: right;
@@ -948,7 +969,10 @@ h3 {
     right: 20px;
     top: -130px;
 }
-
+p3:hover{
+    background-color: #054e78;
+}
+.title_all2 p3:hover{background-color: #e49917;}
 .title_all2 p3 {
     display: block;
     float: right;
@@ -1840,4 +1864,15 @@ td {
 
 .dog_bot p {
     margin-left: 130px;
+}
+
+/* ----------------------------------------------- */
+.bottomMenu {
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid #000;
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+    opacity: 0;
 }
