@@ -16,6 +16,7 @@ a:hover{color: #0073B4;}
 }
 
 /* 按鈕 */
+
 .more ,.more2{
     background-color: #FFBA45;
     color: white;
@@ -82,6 +83,9 @@ h2 {
     list-style: none;
     overflow: hidden;
     margin: 0 auto;
+}
+.top ul{
+    margin-left: 50px;
 }
 .top ul a{
     width: 80px;
@@ -229,8 +233,26 @@ h2 {
 
 .dog {
     text-decoration: none;
+    overflow: hidden;
 }
-
+.dog:hover{
+    color:black;
+}
+.dog div{
+    width: 315px;
+    height: 315px;
+    overflow: hidden;
+}
+.dog img{
+    width: 315px;
+    height: 315px;
+    transform:scale(1,1);
+    transition: all 0.5s ease-out;
+    overflow: hidden;
+    
+}
+.dog img:hover{transform:scale(1.2,1.2);
+    }
 
 /*------------教育推廣-------------*/
 
@@ -336,8 +358,22 @@ h2 {
     font-size: 16px;
     text-decoration: none;
     float: right;
-    padding-right: 5px;
-
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.read:after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: #FFBA45;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all .3s linear;
+}
+.read:hover::after{
+    width: 100%;
 }
 
 .line3 {
@@ -355,6 +391,23 @@ h2 {
 
 /*------------最新消息-------------*/
 
+
+.in_edu{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;    
+    margin-bottom: 5px;
+}
+.in_edu img{
+    width: 500px;
+    height: 300px;
+    transform: scale(1,1);
+    transition: all 0.5s ease-out;
+    overflow: hidden;
+}
+.in_edu img:hover{transform: scale(1.2,1.2);}
+
+
 .con {
     width: 1280px;
     font-size: 16px;
@@ -367,7 +420,9 @@ h2 {
     margin-left: 100px;
     margin-right: 50px;
 }
-
+.con_ul .read {
+    margin-right: 70px;
+}
 .con_li {
     display: inline;
     text-align: center;
@@ -429,6 +484,7 @@ h2 {
 }
 .icon img {
     width: 80px;
+    height: 80px;
     margin: 0 auto;
 }
 .icon {
@@ -437,6 +493,10 @@ h2 {
 }
 .icon a {
     text-decoration: none;
+}
+.in_icon:hover{
+    transform: scale(1.2,1.2);
+    transition: all 0.5s ;
 }
 .icon a p {
     text-align: center;
@@ -456,8 +516,10 @@ h2 {
     margin: 0 auto;
 }
 
-.bot_logo {
-    display: inline-block;
+.bot_logo img{
+    display: block;
+    width: 100px;
+    margin: 50px auto 20px;
 }
 
 .bot1 {
@@ -694,6 +756,7 @@ h3 {
 .dog_box {
     width: 1200px;
     margin: 0 auto;
+    
 }
 
 .dog_2 {
@@ -1210,9 +1273,9 @@ h3 {
     width: 815px;
     height: 1200px;
     margin: 80px auto;
-    background-color: #EBEFF1;
-    border-radius: 100px;
-    border: 35px solid gainsboro;
+    background-color: #FFE8C1;
+    border-radius: 25px;
+    border: 10px solid #FFBA45;
 }
 
 .jo form {
@@ -1252,7 +1315,7 @@ h3 {
     width: 230px;
     height: 20px;
     font-size: 16px;
-    border-radius: 10px;
+    margin-top: 7px;
     padding-left: 5px;
 }
 
@@ -1271,6 +1334,11 @@ h3 {
     border-radius: 10px;
     font-size: 16px;
     padding-left: 5px;
+    text-align: top;
+}
+
+.form_box div label{
+    vertical-align: top;
 }
 
 .form_2,
