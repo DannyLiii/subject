@@ -21,21 +21,20 @@ a:hover {
 }
 
 /* 按鈕 */
-
+    
 .more,
 .more2 {
     background-color: #FFBA45;
     color: white;
-    width: 150px;
     font-size: 20px;
     text-align: center;
     margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 35px;
     text-decoration: none;
     border-radius: 16px;
-    overflow: hidden;
-    display: block;
+    display:inline-flex;
+    justify-content: center; 
+    align-items: center; 
     box-shadow: 0px 0px 10px #6d480a;
 }
 
@@ -61,8 +60,8 @@ a:hover {
 }
 
 .tit1 {
-    width: 1280px;
-    height: 127px;
+    width: 100%;
+    padding: 10px;
     margin: 0 auto;
     margin-bottom: 50px;
     background-image: url(../img/title\ background_blue.png);
@@ -71,16 +70,15 @@ a:hover {
 }
 
 .tit2 {
-    width: 1280px;
-    height: 127px;
-    margin-bottom: 50px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 70px;
     background-image: url(../img/title\ background_org.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 h1 {
-    padding-top: 15px;
     margin-top: 50px;
     text-align: center;
     font-size: 36px;
@@ -98,21 +96,20 @@ h2 {
 /*------------頂部------------*/
 
 .top {
-    /* background-color: red; */
-    width: 1280px;
-    height: 130px;
     list-style: none;
-    overflow: hidden;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
+.top a{margin: 5px;}
 
 .top ul {
     margin-left: 50px;
 }
 
 .top ul a {
-    width: 80px;
-    height: 22px;
     background-color: white;
     color: black;
     border-bottom: 3px solid transparent;
@@ -125,21 +122,17 @@ h2 {
 
 .left {
     width: 192px;
-    height: 96px;
-    margin-top: 10px;
-    margin-right: 300px;
-    margin-left: 50px;
-    float: left;
 }
 
 .top ul {
     float: left;
+    margin-left: 350px;
 }
 
 .top li {
     display: inline;
     float: left;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-left: 25px;
     margin-bottom: 20px;
     font-size: 20px;
@@ -148,34 +141,30 @@ h2 {
 .top li a {
     text-decoration: none;
 }
-
-.right {
-    width: 40px;
-    height: 40px;
-    margin-top: 45px;
-    margin-left: 25px;
-    float: left;
-}
+/*  */
 
 /*------------banner-------------*/
 
 .ban {
-    /* background-color: orange; */
-    width: 1280px;
-    height: 540px;
+    display: flex;
+    height: calc(100vh - 112.72px);
+    background-size: cover;
     background-image: url(../img/banner.png);
     margin: 0 auto;
 }
 
 /*------------成果展示-------------*/
 .ach {
-    /* background-color: yellow; */
-    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
     margin: 0 auto;
 }
 
 .ach ul {
-    width: 1280px;
+    justify-content: center;
+    display: flex;
     /* background-color: aliceblue; */
     float: left;
 }
@@ -183,9 +172,7 @@ h2 {
 .ach_li1,
 .ach_li2 {
     width: 253px;
-    height: 253px;
-    margin-top: 100px;
-    margin-left: 50px;
+    margin: 30px;
     padding: 80px 0 70px;
     font-size: 32px;
     text-align: center;
@@ -204,18 +191,17 @@ h2 {
 /*------------浪犬專區-------------*/
 
 .str {
-    width: 1280px;
-    height: 1400px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url(../img/stary-background.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    margin: 0 auto;
-    padding-top: 150px;
+    margin: 100px auto;
+    padding: 150px 0;
 }
-
-.str baclground-img {
-    width: 1280px;
-}
-
 .str .tit2 h1 {
     margin-top: 0;
     padding-top: 15px;
@@ -227,21 +213,21 @@ h2 {
 }
 
 .str ul {
-    width: 1200px;
-    margin: 0 auto;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .str li {
     width: 315px;
     height: 465px;
     background-color: white;
-    float: left;
-    margin-left: 65px;
+    display: flex;
+    margin: 0 35px;
     margin-bottom: 50px;
-}
-
-.str a {
-    background-color: #0073B4;
 }
 
 .str h3 {
@@ -262,25 +248,21 @@ h2 {
 
 }
 
-.in_str {
-    width: 315px;
-    height: 465px;
+.in_str, .in_str1 {
     box-shadow: 10px 10px 15px rgba(158, 110, 0, 0.5);
 }
+
+.in_str1{margin-left: 0;}
 
 .dog:hover {
     color: black;
 }
 
 .dog div {
-    width: 315px;
-    height: 315px;
     overflow: hidden;
 }
 
 .dog img {
-    width: 315px;
-    height: 315px;
     transform: scale(1, 1);
     transition: all 0.5s ease-out;
     overflow: hidden;
@@ -289,6 +271,7 @@ h2 {
 .dog img:hover {
     transform: scale(1.2, 1.2);
 }
+.more2{background-color: #0073B4;}
 
 /*------------教育推廣-------------*/
 
