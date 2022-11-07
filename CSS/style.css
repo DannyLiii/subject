@@ -5,11 +5,16 @@ body {
     text-decoration: none;
     overflow: hidden;
     overflow-y: scroll;
-    
 }
 
-a{color: black;}
-a:hover{color: #0073B4;}
+a {
+    color: black;
+}
+
+a:hover {
+    color: #0073B4;
+}
+
 /*------------------------------------全域------------------------------------*/
 .fix {
     clear: both;
@@ -17,7 +22,8 @@ a:hover{color: #0073B4;}
 
 /* 按鈕 */
 
-.more ,.more2{
+.more,
+.more2 {
     background-color: #FFBA45;
     color: white;
     width: 150px;
@@ -30,14 +36,35 @@ a:hover{color: #0073B4;}
     border-radius: 16px;
     overflow: hidden;
     display: block;
+    box-shadow: 0px 0px 10px #6d480a;
 }
-.more2:hover{color: #CFEEFF;}
+
+.more:active,
+.more2:active {
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+    color: #0073B4;
+    box-shadow: 0 0 15px#6d480a;
+}
+
+.more:active {
+    background-color: #c68513;
+}
+
+.more2:active {
+    background-color: #075887;
+}
+
+.more2:hover {
+    color: #CFEEFF;
+}
+
 .tit1 {
     width: 1280px;
     height: 127px;
     margin: 0 auto;
     margin-bottom: 50px;
-    /* padding-top: 5px; */
     background-image: url(../img/title\ background_blue.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -46,19 +73,15 @@ a:hover{color: #0073B4;}
 .tit2 {
     width: 1280px;
     height: 127px;
-    margin-bottom: 50px ;
-
-
+    margin-bottom: 50px;
     background-image: url(../img/title\ background_org.png);
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 h1 {
     padding-top: 15px;
     margin-top: 50px;
-    /* padding-top: 20px; */
     text-align: center;
     font-size: 36px;
     line-height: 1.5;
@@ -71,9 +94,7 @@ h2 {
     margin-bottom: 50px;
 }
 
-
 /* ------------------------------------主頁------------------------------------ */
-
 /*------------頂部------------*/
 
 .top {
@@ -84,19 +105,22 @@ h2 {
     overflow: hidden;
     margin: 0 auto;
 }
-.top ul{
+
+.top ul {
     margin-left: 50px;
 }
-.top ul a{
+
+.top ul a {
     width: 80px;
     height: 22px;
     background-color: white;
     color: black;
-    border-bottom:3px solid transparent;
+    border-bottom: 3px solid transparent;
 }
-.top ul a:hover{
+
+.top ul a:hover {
     color: #0073B4;
-    border-bottom:3px solid #FFBA45;
+    border-bottom: 3px solid #FFBA45;
 }
 
 .left {
@@ -187,7 +211,8 @@ h2 {
     margin: 0 auto;
     padding-top: 150px;
 }
-.str baclground-img{
+
+.str baclground-img {
     width: 1280px;
 }
 
@@ -234,33 +259,42 @@ h2 {
 .dog {
     text-decoration: none;
     overflow: hidden;
+
 }
-.dog:hover{
-    color:black;
+
+.in_str {
+    width: 315px;
+    height: 465px;
+    box-shadow: 10px 10px 15px rgba(158, 110, 0, 0.5);
 }
-.dog div{
+
+.dog:hover {
+    color: black;
+}
+
+.dog div {
     width: 315px;
     height: 315px;
     overflow: hidden;
 }
-.dog img{
+
+.dog img {
     width: 315px;
     height: 315px;
-    transform:scale(1,1);
+    transform: scale(1, 1);
     transition: all 0.5s ease-out;
     overflow: hidden;
-    
 }
-.dog img:hover{transform:scale(1.2,1.2);
-    }
+
+.dog img:hover {
+    transform: scale(1.2, 1.2);
+}
 
 /*------------教育推廣-------------*/
 
 .edu {
     width: 1280px;
     margin: 0 auto;
-    /* margin-bottom: 50px */
-
 }
 
 .fix2 {
@@ -270,26 +304,21 @@ h2 {
 .edu_left,
 .edu_right {
     width: 500px;
-
-
 }
 
 .edu_left {
     float: left;
     margin-left: 90px;
-
 }
 
 .edu_right {
     float: right;
     margin-right: 90px;
-
 }
 
 .date_box {
     position: relative;
     text-align: right;
-
 }
 
 .date {
@@ -306,7 +335,6 @@ h2 {
     display: block;
     padding-top: 5px;
     transform: skew(-20deg);
-
 }
 
 .edu_left img,
@@ -328,9 +356,6 @@ h2 {
     width: 90px;
     height: 5px;
     border-radius: 5px;
-    /* display: inline-block;
-    overflow: hidden; */
-    /* display: flex; */
 }
 
 .line2 {
@@ -341,10 +366,6 @@ h2 {
     width: 5px;
     height: 90px;
     border-radius: 5px;
-    /* display: inline-block;
-    overflow: hidden; */
-    /* display: flex; */
-
 }
 
 .edu p {
@@ -362,6 +383,7 @@ h2 {
     vertical-align: middle;
     position: relative;
 }
+
 .read:after {
     content: '';
     width: 0%;
@@ -372,7 +394,8 @@ h2 {
     left: 0;
     transition: all .3s linear;
 }
-.read:hover::after{
+
+.read:hover::after {
     width: 100%;
 }
 
@@ -392,21 +415,24 @@ h2 {
 /*------------最新消息-------------*/
 
 
-.in_edu{
+.in_edu {
     width: 500px;
     height: 300px;
-    overflow: hidden;    
+    overflow: hidden;
     margin-bottom: 5px;
 }
-.in_edu img{
+
+.in_edu img {
     width: 500px;
     height: 300px;
-    transform: scale(1,1);
+    transform: scale(1, 1);
     transition: all 0.5s ease-out;
     overflow: hidden;
 }
-.in_edu img:hover{transform: scale(1.2,1.2);}
 
+.in_edu img:hover {
+    transform: scale(1.2, 1.2);
+}
 
 .con {
     width: 1280px;
@@ -420,9 +446,11 @@ h2 {
     margin-left: 100px;
     margin-right: 50px;
 }
+
 .con_ul .read {
     margin-right: 70px;
 }
+
 .con_li {
     display: inline;
     text-align: center;
@@ -480,24 +508,29 @@ h2 {
 .contact ul {
     width: 1000px;
     height: 00px;
-    margin:0 auto 50px;
+    margin: 0 auto 50px;
 }
+
 .icon img {
     width: 80px;
     height: 80px;
     margin: 0 auto;
 }
+
 .icon {
     margin-left: 50px;
     float: left;
 }
+
 .icon a {
     text-decoration: none;
 }
-.in_icon:hover{
-    transform: scale(1.2,1.2);
-    transition: all 0.5s ;
+
+.in_icon:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 0.5s;
 }
+
 .icon a p {
     text-align: center;
     color: white;
@@ -508,7 +541,6 @@ h2 {
     height: 107px;
 }
 
-
 /*------------底部資訊-------------*/
 
 .bot {
@@ -516,7 +548,7 @@ h2 {
     margin: 0 auto;
 }
 
-.bot_logo img{
+.bot_logo img {
     display: block;
     width: 100px;
     margin: 50px auto 20px;
@@ -552,7 +584,6 @@ h3 {
 
 .txt {
     line-height: 2;
-    /* text-align: center; */
     text-decoration: none;
 }
 
@@ -563,8 +594,6 @@ h3 {
     margin: 30px auto 0;
     background-color: #0073B4;
     padding: 10px;
-
-
 }
 
 .footer p {
@@ -587,7 +616,7 @@ h3 {
     height: 400px;
 }
 
-.slo_img h2{
+.slo_img h2 {
     padding: 170px 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 64px;
@@ -641,7 +670,7 @@ h3 {
     margin-left: 50px;
 }
 
-.cn_icon{
+.cn_icon {
     width: 1000px;
     margin: 0 auto;
 }
@@ -667,7 +696,7 @@ h3 {
 .vol_box {
     width: 1280px;
     height: 625px;
-    background-image: url(../img/vol_people.png);   
+    background-image: url(../img/vol_people.png);
     background-position: center;
     background-repeat: no-repeat;
     margin: 0;
@@ -690,7 +719,6 @@ h3 {
 .people {
     width: 920px;
     margin: 0 auto;
-
 }
 
 .people ul {
@@ -724,11 +752,7 @@ h3 {
 .p3 p {
     font-size: 16px;
     text-align: center;
-
 }
-
-
-
 
 /* ------------------------------------浪犬專區------------------------------------ */
 
@@ -756,7 +780,7 @@ h3 {
 .dog_box {
     width: 1200px;
     margin: 0 auto;
-    
+
 }
 
 .dog_2 {
@@ -791,12 +815,7 @@ h3 {
     left: 8px;
 }
 
-
-
-
 /* ------------------------------------教育推廣------------------------------------ */
-
-
 
 .edu_box {
     width: 1280px;
@@ -839,7 +858,6 @@ h3 {
 .edu_line1 {
     position: relative;
     top: -15px;
-    /* left: 40px; */
     background-color: #0073B4;
     width: 1100px;
     margin-left: 75px;
@@ -946,13 +964,10 @@ h3 {
     top: -130px;
 }
 
-
-
 /* ------------------------------------教育推廣之1------------------------------------ */
 
 .edu-1 {
     width: 1280px;
-
     margin: 0 auto;
 }
 
@@ -972,11 +987,7 @@ h3 {
     margin: 50px auto;
 }
 
-
-
-
 /* ------------------------------------登入註冊------------------------------------ */
-
 
 .log {
     width: 1280px;
@@ -1129,7 +1140,6 @@ h3 {
     float: left;
     margin-left: 5px;
     margin-top: 15px;
-
 }
 
 .an2 a img {
@@ -1139,10 +1149,6 @@ h3 {
     margin-top: 10px;
 }
 
-
-
-
-
 /* ------------------------------------登入/註冊成功------------------------------------ */
 
 .success {
@@ -1150,7 +1156,6 @@ h3 {
     height: 500px;
     margin: 70px auto 0;
 }
-
 
 .success img {
     display: block;
@@ -1165,16 +1170,13 @@ h3 {
     text-align: center;
     font-size: 36px;
     line-height: 2;
-
 }
 
 /* ------------------------------------許願專區------------------------------------ */
 
-
 .wish {
     width: 1280px;
     margin: 0 auto 300px;
-
 }
 
 .wish img {
@@ -1265,9 +1267,7 @@ h3 {
     text-decoration: none;
 }
 
-
 /* ------------------------------------表單------------------------------------ */
-
 
 .form {
     width: 815px;
@@ -1280,8 +1280,6 @@ h3 {
 
 .jo form {
     width: 815px;
-    /* height: 1500px; */
-
 }
 
 .form div {
@@ -1337,7 +1335,7 @@ h3 {
     text-align: top;
 }
 
-.form_box div label{
+.form_box div label {
     vertical-align: top;
 }
 
@@ -1433,7 +1431,6 @@ h3 {
     font-size: .9em;
     padding: 15px;
     margin-bottom: 50px;
-    /* border: 1px solid #ddd;  */
     border-radius: 5px;
     background-color: #FFBA45;
 }
@@ -1452,7 +1449,6 @@ h3 {
 .tab_css input:checked+label+.tab_content {
     display: initial;
 }
-
 
 /* ------------------------------------商品資訊------------------------------------ */
 
@@ -1476,7 +1472,6 @@ h3 {
 .itop_right {
     display: block;
     float: right;
-
 }
 
 .right_top {
@@ -1517,7 +1512,6 @@ h3 {
     margin: 0px auto;
     margin-top: 30px;
     display: block;
-
 }
 
 .rb_1 h3 {
@@ -1577,10 +1571,7 @@ h3 {
     margin: 0 auto 50px;
 }
 
-
-
 /* ------------------------------------贊助資訊------------------------------------ */
-
 
 .spo_top {
     width: 1206px;
@@ -1598,7 +1589,6 @@ h3 {
     float: left;
     margin-left: 79px;
 }
-
 
 .spo_item1 p,
 .spo_item2 p,
@@ -1664,7 +1654,6 @@ h3 {
     box-shadow: 3px 3px 12px #d9d9d9d9;
 }
 
-
 .it1 .g-container,
 .it2 .g-container,
 .it3 .g-container,
@@ -1685,8 +1674,6 @@ h3 {
 .it5 .g-container {
     background: none
 }
-
-
 
 .it1 .g-progress,
 .it2 .g-progress,
@@ -1742,10 +1729,7 @@ h3 {
     background: #999494;
 }
 
-
-
 /* ------------------------------------贊助資訊------------------------------------ */
-
 
 .dog_top {
     width: 1280px;
@@ -1758,7 +1742,6 @@ h3 {
     float: left;
     width: 600px;
     margin-left: 50px;
-
 }
 
 .dgt_left img {
@@ -1824,9 +1807,6 @@ h3 {
     font-size: 24px;
 }
 
-
-
-
 .dog_bot table {
     margin: 0px auto 100px;
     border: 1px solid rgb(255, 255, 255);
@@ -1857,9 +1837,6 @@ td {
 .d2 {
     background: #FFE8C1;
 }
-
-
-
 
 .dog_bot p {
     margin-left: 130px;
