@@ -141,9 +141,11 @@ h2 {
 .top li a {
     text-decoration: none;
 }
-/*  */
 
 /*------------banner-------------*/
+
+
+
 
 /*------------成果展示-------------*/
 .ach {
@@ -473,7 +475,6 @@ h2 {
     justify-content: center;
 }
 
-
 .icon {
     margin: 0 50px 50px;
 }
@@ -524,7 +525,6 @@ h3 {
 }
 
 .li_bot {
-    /* text-align: center; */
     text-decoration: none;
 }
 
@@ -561,14 +561,19 @@ h3 {
 /* ------------------------------------關於我們------------------------------------ */
 
 .slo {
-    width: 1280px;
+    display: flex;
     margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
 }
 
 .slo_img {
+    display: flex;
+    width: 100%;
     background-image: url(../img/about.png);
-    width: 1280px;
-    height: 400px;
+    background-size: cover;
+    flex-direction: column;
+    align-content: center;
 }
 
 .slo_img h2 {
@@ -580,7 +585,6 @@ h3 {
 }
 
 .slo_txt p {
-    width: 1100px;
     margin: 50px auto 70px;
     line-height: 2.5;
     font-size: 16px;
@@ -590,27 +594,21 @@ h3 {
 /* ------------------------------------聯絡我們------------------------------------ */
 
 .contact_all_txt {
-    margin-bottom: 500px;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+
 }
 
-.cont_1 {
-    width: 517px;
-    float: left;
-    margin-bottom: 50px;
-    margin-left: 80px;
-}
-
-.cont_2 {
-    width: 517px;
-    float: right;
-    margin-bottom: 50px;
-    margin-right: 80px;
+.cont_1, .cont_2 {
+    margin: 50px;
 }
 
 .cont_3 {
-    width: 517px;
-    float: left;
-    margin-left: 80px;
+    padding-right: 555px;
+}
+.cont_3 h2{
+    padding-left: 15px;
 }
 
 .cont_1 p {
@@ -621,20 +619,17 @@ h3 {
     margin-left: 50px;
 }
 
-.cont_3 p {
-    margin-left: 50px;
-}
 
-.cn_icon {
-    width: 1000px;
-    margin: 0 auto;
-}
-
-/* .icon {
+.cn_icon ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin-top: 50px;
-    margin-left: 140px;
-    margin-bottom: 50px;
-} */
+}
+.cn_icon ul p { 
+    color: #000;
+}
+
 
 /* ------------------------------------義工專區------------------------------------ */
 
