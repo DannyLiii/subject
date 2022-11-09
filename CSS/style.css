@@ -145,14 +145,6 @@ h2 {
 
 /*------------banner-------------*/
 
-.ban {
-    display: flex;
-    height: calc(100vh - 112.72px);
-    background-size: cover;
-    background-image: url(../img/banner.png);
-    margin: 0 auto;
-}
-
 /*------------成果展示-------------*/
 .ach {
     display: flex;
@@ -165,7 +157,6 @@ h2 {
 .ach ul {
     justify-content: center;
     display: flex;
-    /* background-color: aliceblue; */
     float: left;
 }
 
