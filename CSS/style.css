@@ -21,7 +21,7 @@ a:hover {
 }
 
 /* 按鈕 */
-    
+
 .more,
 .more2 {
     background-color: #FFBA45;
@@ -32,9 +32,9 @@ a:hover {
     padding: 10px 35px;
     text-decoration: none;
     border-radius: 16px;
-    display:inline-flex;
-    justify-content: center; 
-    align-items: center; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0px 0px 10px #6d480a;
 }
 
@@ -103,7 +103,9 @@ h2 {
     align-items: center;
 }
 
-.top a{margin: 5px;}
+.top a {
+    margin: 5px;
+}
 
 .top ul {
     margin-left: 50px;
@@ -194,6 +196,7 @@ h2 {
     margin: 100px auto;
     padding: 150px 0;
 }
+
 .str .tit2 h1 {
     padding-top: 15px;
     color: white;
@@ -203,12 +206,13 @@ h2 {
     color: white;
 }
 
-.tit22{
+.tit22 {
     display: flex;
     flex-direction: column;
     align-content: center;
 }
-.tit22_box{
+
+.tit22_box {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -246,11 +250,14 @@ h2 {
     overflow: hidden;
 }
 
-.in_str, .in_str1 {
+.in_str,
+.in_str1 {
     box-shadow: 10px 10px 15px rgba(158, 110, 0, 0.5);
 }
 
-.in_str1{margin-left: 0;}
+.in_str1 {
+    margin-left: 0;
+}
 
 .dog:hover {
     color: black;
@@ -269,7 +276,10 @@ h2 {
 .dog img:hover {
     transform: scale(1.2, 1.2);
 }
-.more2{background-color: #0073B4;}
+
+.more2 {
+    background-color: #0073B4;
+}
 
 /*------------教育推廣-------------*/
 
@@ -323,7 +333,7 @@ h2 {
     left: 440px;
     top: 20px;
     padding: 3px 45px;
-    
+
     border-radius: 5px;
 }
 
@@ -333,7 +343,7 @@ h2 {
     left: 525px;
     top: -67px;
     padding: 46px 3px;
-    
+
     border-radius: 5px;
 }
 
@@ -348,7 +358,7 @@ h2 {
     font-size: 16px;
     text-decoration: none;
     float: right;
-    display:block;
+    display: block;
     position: relative;
 }
 
@@ -501,15 +511,17 @@ h2 {
     flex-wrap: wrap;
     margin: 0 auto;
 }
-.flex_bot{
+
+.flex_bot {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 .bot_logo img {
     display: block;
     width: 100px;
-    margin: 50px auto ;
+    margin: 50px auto;
 }
 
 .bot1 {
@@ -600,14 +612,16 @@ h3 {
 
 }
 
-.cont_1, .cont_2 {
+.cont_1,
+.cont_2 {
     margin: 50px;
 }
 
 .cont_3 {
     padding-right: 555px;
 }
-.cont_3 h2{
+
+.cont_3 h2 {
     padding-left: 15px;
 }
 
@@ -619,17 +633,16 @@ h3 {
     margin-left: 50px;
 }
 
-
-.cn_icon ul{
+.cn_icon ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 50px;
 }
-.cn_icon ul p { 
+
+.cn_icon ul p {
     color: #000;
 }
-
 
 /* ------------------------------------義工專區------------------------------------ */
 
@@ -705,51 +718,48 @@ h3 {
 }
 
 /* ------------------------------------浪犬專區------------------------------------ */
-
+.stray_box{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
 .stray_top {
-    width: 1280px;
     margin: 0 auto;
 }
 
 .top_line {
     position: relative;
     top: -15px;
-    /* left: 40px; */
     background-color: #0073B4;
-    width: 1280px;
-    height: 3px;
+    padding: 2px 640px;
     border-radius: 5px;
     display: inline-block;
 }
 
 .stray_dog {
-    width: 1280px;
-    margin: 0 auto
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
 }
 
 .dog_box {
-    width: 1200px;
     margin: 0 auto;
-
 }
-
 .dog_2 {
-    width: 350px;
-    height: 450px;
     margin-top: 30px;
     float: left;
     margin-left: 60px;
-    box-shadow: 12px 12px 20px #000;   
-    margin-bottom: 100px; 
+    
+}
+
+.dog_2 img, .dog_1 img{
+    box-shadow: 10px 10px 15px rgb(190, 190, 190) ;
 }
 
 .dog_1 {
-    width: 350px;
-    height: 450px;
     margin-top: 30px;
-    float: left;
-    box-shadow: 12px 12px 20px #000;
-    
+    float: left;    
+
 }
 
 .dog_box li a img {
@@ -760,17 +770,16 @@ h3 {
 
 .dog_box li p {
     position: relative;
-    padding-top: 30px;
-    width: 350px;
-    height: 130px;
+    display: block;
+    padding: 42px 90px;
     text-align: center;
     font-size: 24px;
     background-color: #FFBA45;
     color: white;
     z-index: 1;
     opacity: .9;
-    top: -168px;
-    left: 8px;
+    top: -160px;
+    left: 2px;
 }
 
 /* ------------------------------------教育推廣------------------------------------ */
@@ -898,12 +907,13 @@ h3 {
     width: 350px;
 }
 
-.edu_img{
-    transform: scale(1,1);
+.edu_img {
+    transform: scale(1, 1);
     transition: all 0.5s ease-out;
 }
-.edu_img:hover{
-    transform: scale(1.1,1.1);
+
+.edu_img:hover {
+    transform: scale(1.1, 1.1);
 }
 
 .title_all p3 {
@@ -920,10 +930,15 @@ h3 {
     right: 20px;
     top: -130px;
 }
-p3:hover{
+
+p3:hover {
     background-color: #054e78;
 }
-.title_all2 p3:hover{background-color: #e49917;}
+
+.title_all2 p3:hover {
+    background-color: #e49917;
+}
+
 .title_all2 p3 {
     display: block;
     float: right;
