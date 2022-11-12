@@ -1813,11 +1813,11 @@ p3:hover {
     background: #999494;
 }
 
-/* ------------------------------------贊助資訊------------------------------------ */
+/* ------------------------------------浪犬介紹 ------------------------------------ */
 
 .dog_top {
-    width: 1280px;
-    height: 565px;
+    display: flex;
+    justify-content: center;
     margin: 50px auto 100px;
 }
 
@@ -1851,6 +1851,10 @@ p3:hover {
     margin-left: 80px;
     margin-bottom: 0;
 }
+.dog_bot div {
+    display: block;
+    margin: 0 auto;
+}
 
 .dgt_btn {
     margin-left: 150px;
@@ -1858,8 +1862,6 @@ p3:hover {
 
 .a1,
 .a2 {
-    width: 150px;
-    height: 50px;
     margin-left: 50px;
     padding: 15px 25px;
     border-radius: 10px;
@@ -1869,8 +1871,14 @@ p3:hover {
     font-size: 20px;
 }
 
-.a1 {
+.a1 {   
     background: #0073B4;
+}
+.a1:hover{
+    color: #cbe9fc;
+}
+.a2:hover{
+    color: #f9eacf;
 }
 
 .dgt_img img {
@@ -1881,9 +1889,9 @@ p3:hover {
 }
 
 .dog_bot {
-    display: block;
-    width: 1090px;
-    height: 585px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0 auto;
 }
 
@@ -1923,7 +1931,7 @@ td {
 }
 
 .dog_bot p {
-    margin-left: 130px;
+    margin-left: -260px;
 }
 
 /* ----------------------------------------------- */
