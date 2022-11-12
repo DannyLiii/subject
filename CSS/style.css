@@ -1815,28 +1815,56 @@ p3:hover {
 
 /* ------------------------------------浪犬介紹 ------------------------------------ */
 
+
+#slider{
+    width: 450px;
+    height: 450px;
+    background-image: url('../img/dog1-1.png');
+    background-size: cover;
+    margin: auto;
+    /* transition: background-image 0.5s; */
+}
+#indicator{
+    list-style: none;
+    margin-top: 30px;
+    width: 630px;
+    margin: 30px 50px 0px;
+}
+#indicator li{
+    width: 100px;
+    height: 100px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+#indicator li img {
+    max-width: 100%;
+}
+
+.dotp_all{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.d1_top_left{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 640px;
+}
+.sma_img{
+    margin: 0 auto;
+}
+
 .dog_top {
     display: flex;
     justify-content: center;
-    margin: 50px auto 100px;
-}
-
-.dgt_left {
-    display: block;
-    float: left;
-    width: 600px;
-    margin-left: 50px;
-}
-
-.dgt_left img {
-    width: 600px;
-    height: 545px;
-
+    margin: 10px auto 100px;
 }
 
 .dgt_right {
-    display: block;
-    float: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .dgt_txt {
@@ -1846,10 +1874,10 @@ p3:hover {
 .dgt_txt h2 {
     text-align: left;
     font-size: 24px;
-    line-height: 2;
+    line-height: 1.6;
     margin-top: 50px;
-    margin-left: 80px;
-    margin-bottom: 0;
+    margin-left: 30px;
+    margin-bottom: 50px;
 }
 .dog_bot div {
     display: block;
@@ -1857,11 +1885,13 @@ p3:hover {
 }
 
 .dgt_btn {
-    margin-left: 150px;
+    margin-left: 90px;
+    margin-top: 50px ;
 }
 
 .a1,
 .a2 {
+   
     margin-left: 50px;
     padding: 15px 25px;
     border-radius: 10px;
