@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="icon" href="img/logo_icon.ico" type="image/x-icon" />
-    <title>首頁</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="js/index.js"></script>
+    <title>鄰家</title>
 </head>
 
 <body>
@@ -25,9 +27,51 @@
     </div>
 
     <!----- banner ----->
-    <div class="date_box"></div>
+
+    <div class="slideshow-container">
+
+        <a href="edu-1.html"> 
+            <div class="mySlides fade">
+                <img src="img/banner1.jpg" style="width:100%">
+            </div>
+        </a>
+        <a href="edu-1.html"> 
+            <div class="mySlides fade">
+                <img src="img/banner2.jpg" style="width:100%">
+            </div>
+        </a>
+        <a href="edu-1.html"> 
+        <div class="mySlides fade">
+            <img src="img/banner3.jpg" style="width:100%">
+        </div>
+        </a>
+        <a href="edu-1.html"> 
+        <div class="mySlides fade">
+            <img src="img/banner4.jpg" style="width:100%">
+        </div>
+        </a>
+        <a href="edu-1.html"> 
+        <div class="mySlides fade">
+            <img src="img/banner5.jpg" style="width:100%">
+        </div>
+        </a>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div class="dot_all">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+
+    </div>
+
     <!----- 成果展示 ----->
-    <div class="ach">
+    <div class="ach" data-aos="fade-up"
+    data-aos-duration="3000">
         <div class="tit1">
             <h1>成果展示</h1>
             <h2>Achievement display</h2>
@@ -119,7 +163,8 @@
 
     <!----- 教育推廣 ----->
 
-    <div class="edu">
+    <div class="edu" data-aos="fade-up"
+    data-aos-duration="3000"    >
         <div class="tit1">
             <h1>教育推廣</h1>
             <h2>Education promotion</h2>
@@ -168,7 +213,8 @@
     <div class="fix"></div>
 
     <!----- 最新消息 ----->
-    <div class="con">
+    <div class="con" data-aos="fade-up"
+    data-aos-duration="3000">
         <ul class="con_ul">
             <li class="con_li">
                 <a class="table" href="edu-1.html">
@@ -292,7 +338,10 @@
             https://taeanimal.org.tw/index.php</p>
     </div>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

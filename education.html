@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="icon" href="img/logo_icon.ico" type="image/x-icon" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="js/edu.js"></script>
     <title>教育推廣</title>
+    
 </head>
 <body>
     <!----- 頂部 ----->
@@ -33,26 +36,26 @@
         </div>
         
         <div class="edu_box">
-            <div class="edu_arrow_left">
-                <a href=""><img src="img/arrow_left.png" alt=""></a>
-            </div>
+            <div class="tube fade">
+                <iframe width="728" height="409.5" src="https://www.youtube.com/embed/XzOUGj7digo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="tube fade">
+                <iframe width="728" height="409.5" src="https://www.youtube.com/embed/hzweHQ8OB50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="tube fade">
+                <iframe width="728" height="409.5" src="https://www.youtube.com/embed/f-KP6p8s40s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 
-            <div class="edu_banner">
-                <img src="img/edu_banner.png" alt="">
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
-
-            <div class="edu_arrow_right">
-                <a href=""><img src="img/arrow_right.png" alt=""></a>
-            </div>
-
-        </div>
+    <div class="dot_all">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
 
     <div class="edu_line1"></div>
-        
-
-        <div class="edu_title">
-            <div class="title_all">
-                <div class="edu_title1">
+        <div class="edu_title" >
+            <div class="title_all" data-aos="fade-right" data-aos-duration="1500">
+                <div class="edu_title1" >
                     <h3>01</h3>
                     <p1>動物平權</p1> <br>
                     <p2>透過教育與宣導，減少不當籠鏈的狀況的產生；在現有籠鍊犬方面，則向飼主傳遞正確飼養知識，以及協助照護、救援、送養，改善籠鍊動物現狀。</p2>
@@ -61,7 +64,7 @@
                 <a href="edu-1.html"><p3>閱讀更多</p3></a>
             </div>  
 
-            <div class="title_all2">
+            <div class="title_all2" data-aos="fade-left" data-aos-duration="1500">
                 <div class="edu_title2">
                     <h3>02</h3>
                     <p1>守護浪犬</p1> <br>
@@ -71,7 +74,7 @@
                 <a href="edu-1.html"><p3>閱讀更多</p3></a>
             </div>  
                 
-            <div class="title_all">
+            <div class="title_all" data-aos="fade-right" data-aos-duration="1500">
                 <div class="edu_title1">
                     <h3>03</h3>
                     <p1>自由幸福</p1> <br>
@@ -81,7 +84,7 @@
                 <a href="edu-1.html"><p3>閱讀更多</p3></a>
             </div>  
                 
-            <div class="title_all2">
+            <div class="title_all2" data-aos="fade-left" data-aos-duration="1500">
                 <div class="edu_title2">
                     <h3>04</h3>
                     <p1>狗兄攝影</p1> <br>
@@ -90,7 +93,7 @@
                 <a class="edu_tia" href="edu-1.html"><div class="edu_img_box"><img class="edu_img" src="img/title4.png" alt=""></div></a>
                 <a href="edu-1.html"><p3>閱讀更多</p3></a>
                 </div>  
-            <div class="title_all">
+            <div class="title_all" data-aos="fade-right" data-aos-duration="1500">
                 <div class="edu_title1">
                     <h3>05</h3>
                     <p1>動物心聲</p1> <br>
@@ -168,6 +171,9 @@
     <p>本網站為緯育TibaMe前端工程師班第80期學員專題作品，本平台僅供學習、展示之用。<br>
         https://taeanimal.org.tw/index.php</p>
 </div>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
