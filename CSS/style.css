@@ -184,6 +184,7 @@ h2 {
 }
 
 .dot_all{
+    padding: 10px;
     text-align: center;
 }
 .dot {
@@ -1064,10 +1065,6 @@ p3:hover {
     margin: 0 100px;
 }
 
-.log_in {
-    
-}
-
 .re_top h1,
 .log_top h1 {
     background-color: #FFBA45;
@@ -1529,15 +1526,14 @@ p3:hover {
 /* ------------------------------------商品資訊------------------------------------ */
 
 .item_top {
-    width: 1010px;
-    height: 385px;
-    margin: 20px auto;
-    display: block;
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
 }
 
 .itop_left {
-    display: block;
-    float: left;
+    margin: 0 40px;
+    /* width: 50%; */
 }
 
 .itop_left img {
@@ -1546,12 +1542,15 @@ p3:hover {
 }
 
 .itop_right {
-    display: block;
-    float: right;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 40px;
 }
 
 .right_top {
-    width: 405px;
+    padding: 15px 50px;
+
 }
 
 .right_top h2 {
@@ -1577,17 +1576,12 @@ p3:hover {
 }
 
 .right_bot {
-    display: block;
-    width: 416px;
-    float: right
+    padding: 10 50px;
 }
 
 .rb_1 {
-    width: 414px;
-    height: 28px;
+    padding: 20px 70px;
     margin: 0px auto;
-    margin-top: 30px;
-    display: block;
 }
 
 .rb_1 h3 {
@@ -1609,8 +1603,7 @@ p3:hover {
     border-radius: 25px;
     background: #CFEEFF;
     margin: 0 auto;
-    margin-top: 20px;
-    margin-left: 3px;
+    margin-top: 23px;
 }
 
 .g-progress {
@@ -1622,7 +1615,6 @@ p3:hover {
 
 .rb_3 {
     display: block;
-
     background-color: #0073B4;
     margin: 0 auto;
     margin-top: 20px;
@@ -1632,7 +1624,6 @@ p3:hover {
 }
 
 .item_bot {
-    width: 914px;
     margin: 0 auto;
 }
 
@@ -1650,8 +1641,14 @@ p3:hover {
 /* ------------------------------------贊助資訊------------------------------------ */
 
 .spo_top {
-    width: 1206px;
+    display: flex;
+    justify-content: center;
     margin: 100px auto;
+}
+.spo_top2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .spo_item1,
@@ -1663,7 +1660,7 @@ p3:hover {
     height: 257px;
     display: block;
     float: left;
-    margin-left: 79px;
+    margin: 0 50px;
 }
 
 .spo_item1 p,
@@ -1685,29 +1682,41 @@ p3:hover {
 }
 
 .spo_choose {
-    width: 1280px;
-    height: 50px;
+    
     margin: 0 auto;
 }
 
 .spo_choose h3 {
     display: block;
     float: left;
-    margin-left: 400px;
+    margin: 50px 150px;
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 20px;
 }
 
 .spo_line {
-    width: 1000px;
     display: block;
     margin: 0 auto;
 }
 
 .spo_box {
-    width: 1141px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
     margin: 100px auto;
+}
+.spbox_1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.spbox_2{
+    display: flex;
+    justify-content: center;
+    margin-right: 835px;
 }
 
 .it1,
@@ -1715,8 +1724,7 @@ p3:hover {
 .it3,
 .it4,
 .it5 {
-    width: 341px;
-    height: 444px;
+    margin: 70px 40px;
     display: block;
     float: left;
     margin-left: 30px;
@@ -1919,12 +1927,3 @@ td {
 }
 
 /* ----------------------------------------------- */
-.bottomMenu {
-    width: 100%;
-    height: 60px;
-    border-top: 1px solid #000;
-    position: fixed;
-    bottom: 0px;
-    z-index: 100;
-    opacity: 0;
-}
