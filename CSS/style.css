@@ -1340,7 +1340,6 @@ p3:hover {
     text-decoration: none;
 }
 
-/
 
 /* ------------------------------------會員中心------------------------------------ */
 
@@ -1631,6 +1630,12 @@ p3:hover {
     margin-right: 835px;
 }
 
+.it1:hover,.it2:hover,.it3:hover,.it4:hover,.it5:hover{
+    position: relative;
+    top: 5px;
+    box-shadow: 5px 10px 20px rgba(14, 3, 37, 0.1);
+    
+}
 .it1,
 .it2,
 .it3,
