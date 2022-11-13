@@ -1876,7 +1876,18 @@ td {
     margin-left: -260px;
 }
 
-/*  ------------------------------------表單------------------------------------ */ */
+/*  ------------------------------------表單------------------------------------ */ 
+
+
+.form_box2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/form_bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 .form_box{
     display: flex;
@@ -1886,7 +1897,6 @@ td {
     background-image: url(../img/form_bg1.jpg);
     background-size: cover;
     background-position: center;
-   
 }
 
 .form_left{
@@ -1956,6 +1966,7 @@ td {
     background-color: #dba13d;
 }
 
-
-
+.form_p2{
+    text-align: right;
+}
 
