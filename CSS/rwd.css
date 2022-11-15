@@ -1,0 +1,181 @@
+
+/* -----414----- */
+*{
+    box-sizing: border-box;
+}
+@media screen and (max-width:414px){
+/* -----------------menu----------------- */
+    .top{
+        width: auto;
+        /* background-color: pink; */
+        justify-content: space-between;
+    }
+    .top i {
+        display: flex;
+    
+    }
+    .top a{
+        margin-bottom: 0;
+    }
+    .top ul{
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        background-color: rgb(253, 198, 103);
+        top:62px;
+        right: 0;
+        width: 30%;
+        padding-left: 10px;
+        margin: 0;
+    }
+    .top li{
+        background-color: rgb(253, 198, 103);
+        border-bottom: 1px solid #ffffff;
+        text-align: center;
+        margin: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 2em;
+    }
+    .top ul li a {
+        background-color: rgb(253, 198, 103);
+        color: white;
+        font-size: 16px;
+        
+    }
+    .left{
+        width: 100px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .fa{
+        margin-right: 20px;
+        margin-top: 25px;
+        font-size: 20px;
+        color: #0073B4;
+
+    }
+    
+/* -----------------footer----------------- */
+
+.bot{
+    display: none;
+}
+.footer p {
+    font-size: 14px;
+}
+
+/* ------標題1------ */
+.tit1{
+    max-width: 100%;
+    height: auto;
+
+    margin-bottom: 20px;
+}
+.tit1 h1{
+    font-size: 1.5em;
+}
+.tit1 h2{
+    font-size: 0.5em;
+}
+
+/*--------------------------- 以上全域--------------------------*/
+
+
+
+/* -----------------form1----------------- */
+
+
+.form_box{
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.form_left{
+    height: 80%;
+    width: 100%;
+    margin: 0 auto;
+    padding:0;
+    padding-top: 10px;
+    border-radius: 0;
+}
+
+.form_left h3{
+    font-size: 1em;
+    padding-left: 55px;
+}
+
+.form_left p{
+    font-size: 10px;
+    padding-left: 65px;
+    margin-bottom: 10px;
+}
+
+.form_right{
+    height: 100%;
+    width: 100%;
+    margin: 25px auto 0 ;
+    padding:0;
+    padding-top: 45px;
+    margin-bottom: 30px;
+    border-radius: 0;
+}
+.form{
+    padding: 15px 70px ;
+    border-radius: 0;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* -----375 ----- */
+
+
+/* -----------------menu----------------- */
+
+@media screen and (max-width:376px){
+
+.top ul li a{
+    font-size: 14px;
+}
+
+.tit1{
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.top ul{
+    padding-left: 8px;
+}
+
+
+/* -----------------form1----------------- */    
+
+
+
+.form_left{
+    margin-top: 235px;
+}
+
+/* -----------------footer----------------- */
+.footer{
+    margin-top: 275px;
+}
+.form_btn{
+    margin: 0 75px;
+
+}
+}

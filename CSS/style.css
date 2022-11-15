@@ -94,13 +94,15 @@ h2 {
 
 /* ------------------------------------主頁------------------------------------ */
 /*------------頂部------------*/
-
+.top i {
+    display: none;
+}
 .top {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+
 }
 
 .top a {
@@ -129,6 +131,7 @@ h2 {
 .top ul {
     float: left;
     margin-left: 350px;
+    margin-top: 15px;
 }
 
 .top li {
