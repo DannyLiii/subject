@@ -182,7 +182,7 @@
 }
 
 .slo_txt p{
-    font-size: 16px;
+    font-size: 10px;
     margin: 0;
     padding: 0 50px;
     line-height: 1.6;
@@ -260,6 +260,95 @@
 .success p{
     width: auto;
     font-size: 20px;
+}
+
+
+/* -----------------edu----------------- */
+
+.edu_01,.edu_02{
+    width: 50%;
+    margin: 20px auto;
+}
+
+.top_line{
+    padding: 1px 200px;
+}
+
+.edu-1 p{
+    padding: 0 50px;
+    margin: 25px auto;
+    font-size: 10px;
+}
+
+
+/* -----------------edu----------------- */
+
+.edu_box{
+    width: 291.2px;
+    height: 163.6px;
+    margin-bottom: 0;
+}
+.tube iframe{
+    width: 291.2px;
+    height: 163.6px;
+}
+
+.next, .prev{
+    display: none;
+}
+
+.dot{
+    border-radius: 5px;
+}
+
+.edu_line1{
+    margin: 25px 0;
+}
+.title_all, .title_all2{
+    display: flex;
+    flex-direction: column;
+}
+
+.edu_title{
+    margin-bottom: 0;
+}
+.edu_title1 h3,.edu_title2 h3{
+    margin-bottom: 0px;
+}
+
+.edu_title1 p1, .edu_title2 p1{
+    position: relative;
+    right: -125px;
+    top: -45px;
+    margin-left: 0;
+    width: auto;
+    font-size: 30px;
+}
+
+.edu_title1 p2,.edu_title2 p2{
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    font-size: 10px;
+    padding: 10px;
+}
+.edu_img_box {
+    float: none;
+}
+.edu_tia{
+    margin-top: 15px;
+}
+.edu_img{
+    width: 300px;
+    float: none;
+    margin: 0 auto;
+}
+
+.title_all2 p3,.title_all p3{
+    font-size: 10px;
+    height: 35px;
+    top: -105px;
+    right: 35px;
 }
 
 
@@ -376,8 +465,21 @@
 
 
 
+/* -----------------edu----------------- */
+.top_line{
+    padding: 1px 150px;
+}
 
-
+.title_all2 p3,.title_all p3{
+    right: 20px;
 }
 
 
+
+
+
+
+
+
+
+}

@@ -160,13 +160,15 @@ h2 {
 
 .prev,
 .next {
+    display: block;
+    margin: 0 auto;
     cursor: pointer;
     position: absolute;
     top: 50%;
-    width: 20px;
-    height: 20px;
-    margin-top: -22px;
-    padding: 16px 19px 19px 16px;
+    width: 40px;
+    height: 40px;
+
+    padding: 9px 25px 19px 16px;
     color: #FFBA45;
     font-weight: bold;
     font-size: 18px;
@@ -992,18 +994,18 @@ h3 {
     transform: scale(1.1, 1.1);
 }
 
-.title_all p3 {
+.title_all p3,.title_all2 p3 {
     display: block;
     float: right;
     padding: 10px;
     text-align: center;
     font-size: 16px;
-    width: 75px;
-    height: 20px;
+    width: 85px;
+    height: 40px;
     background-color: #0073B4;
     color: white;
     position: relative;
-    right: 20px;
+    right: 45px;
     top: 160px;
 }
 
@@ -1016,18 +1018,7 @@ p3:hover {
 }
 
 .title_all2 p3 {
-    display: block;
-    float: right;
-    padding: 10px;
-    text-align: center;
-    font-size: 16px;
-    width: 75px;
-    height: 20px;
     background-color: #FFBA45;
-    color: white;
-    position: relative;
-    right: 20px;
-    top: 160px;
 }
 
 /* ------------------------------------教育推廣之1------------------------------------ */
