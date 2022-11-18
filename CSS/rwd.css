@@ -7,9 +7,15 @@
 
     /* -----------------menu----------------- */
     .top {
+        position: relative;
+        z-index: 5;
         width: auto;
         /* background-color: pink; */
         justify-content: space-between;
+    }
+    .edu_all{
+        position:;
+        z-index: 2;
     }
 
     .top i {
@@ -518,11 +524,119 @@
         border: 5px solid #EBEFF1;
     }
 
+
+    /* -----------------stay----------------- */
+
+    .spo_top{
+        flex-wrap: wrap;
+        margin: 20px auto;
+    }
+
+    .spo_top a{
+        width: 120px;
+    }
+  
+    .spo_item1,
+    .spo_item2,
+    .spo_item3,
+    .spo_item4,
+    .spo_item5 {
+        width: 80px;
+        height: 120px;
+        margin-left: 20px;
+    }
     
+    .spo_item1 img,
+    .spo_item2 img,
+    .spo_item3 img,
+    .spo_item4 img,
+    .spo_item5 img {
+        width: 80px;
+        display: block;
+        margin: 0 auto;
+    }
+    .spo_item1 p,
+    .spo_item2 p,
+    .spo_item3 p,
+    .spo_item4 p,
+    .spo_item5 p {
+        font-size: 10px;
+    }
 
+    .spo_choose h3{
+        margin: 20px 50px;
+        font-size: 18px;
+    }
 
+    .spo_line img{
+        width: 380px;
+        height: 10px;
+    }
 
+    .spbox_1{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .spbox_2{
+       margin-right: 205px;
+    }
 
+    .it1,
+    .it2,
+    .it3,
+    .it4,
+    .it5 {
+        margin: 30px 10px;
+    }
+
+    .it1 img,
+    .it2 img,
+    .it3 img,
+    .it4 img,
+    .it5 img {
+        width: 150px;
+    }
+    
+    .it1 .g-container,
+    .it2 .g-container,
+    .it3 .g-container,
+    .it4 .g-container,
+    .it5 .g-container {
+        width: 150px;
+        height: 10px;
+        border-radius: 5px;
+        margin: 5px auto;
+    }
+    
+    .it1 .rb_3,
+    .it2 .rb_3,
+    .it3 .rb_3,
+    .it4 .rb_3,
+    .it5 .rb_3 {
+        margin-top: 10px;
+        width: 150px;
+        height: 3px;
+        border-radius: 5px;
+    }
+    
+    .it1 p,
+    .it2 p,
+    .it3 p,
+    .it4 p,
+    .it5 p{
+        font-size: 10px;
+    }
+    .it1 > p,
+    .it2 > p,
+    .it3 > p,
+    .it4 > p,
+    .it5 > p{
+        width: 150px;
+    }
+
+    .it_p1{
+        margin-right: 80px;
+    }
 
 
 
@@ -671,18 +785,21 @@
     }
 
 
-    /* -----------------stay----------------- */
+    /* -----------------sponsored----------------- */
+
+    .spo_line img{
+        width: 320px;
+        height: 6px;
+    }
+    
+    .spbox_2{
+        margin-right: 190px;
+     }
 
 
-
-
-
-
-
-
-
-
-
+    .spo_choose h3{
+        font-size: 16px;
+    }
 
 
 

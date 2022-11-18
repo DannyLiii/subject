@@ -1610,11 +1610,12 @@ p3:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-content: flex-start;
     margin: 50px auto;
 }
 .spbox_1{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
 
@@ -1629,7 +1630,6 @@ p3:hover {
     position: relative;
     top: 5px;
     box-shadow: 5px 10px 20px rgba(14, 3, 37, 0.1);
-    
 }
 .it1,
 .it2,
@@ -1723,6 +1723,10 @@ p3:hover {
 
 .it5 .rb_3 {
     background: #999494;
+}
+.it_p{
+    display: block;
+    float: left;
 }
 
 /* ------------------------------------浪犬介紹 ------------------------------------ */
