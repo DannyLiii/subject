@@ -494,7 +494,6 @@
 
     .stray_dog{
         flex-direction: row;
-        
     }
     .dog_box{
         width: 180px;
@@ -504,7 +503,7 @@
     }
     .dog_box li p{
         padding: 0;
-        top: -60px;
+        top: -58px;
         left: 0;
         font-size: 10px;
         padding: 10px 0;
@@ -717,21 +716,70 @@
     }
 
 
+    /* -----------------center----------------- */
+    
+    .cen_top{
+        width: auto;
+        height: auto;
+        display: flex;
+        margin: 0;
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
 
+    .centl img{
+        width: 150px;
+        margin: 20px ;
+    }
 
+    .centl{
+        width: 100%;
+    }
 
+    .cent_txt{
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
 
+    .cent_txt p{
+        margin:20px;
+        margin-bottom: 0;
+        padding: 20px;
+        padding-bottom: 10px;
+        line-height: 1;
+        font-size: 10px;
+    }
 
+    .Revise{
+        margin: 0 ;
+        margin-left: 70px;
+        width: 100px;
+        height: 20px;
+        font-size: 10px;
+        padding: 7px 10px;
+        border-radius: 5px;
+    }
 
+    .tab_css{
+        margin-top: 50px;
+        width: 370px;
+        justify-content: start;
+    }
 
+    .tab_css label{
+        padding: 7px 10px;
+        font-size: 10px;
+        border-bottom: 1px solid #ffffff;
+    }
+    .tab_content{
+        height: auto;
+        border-radius:  0;
+    }
 
-
-
-
-
-
-
-
+    .tab_content img{
+        width: 350px;
+    }
 
 }
 
@@ -912,17 +960,29 @@
     }
 
 
+    /* -----------------center----------------- */
+
+    .cent_txt p{
+        margin:0;
+        margin-top: 20px;
+        margin-right: 15px;
+        padding: 10px;
+    }
+
+    .Revise{
+        margin-left: 50px;
+       
+    }
+
+    .tab_css{
+        margin-top: 0px;
+        width: 350px;
+    }
 
 
-
-
-
-
-
-
-
-
-
+    .tab_content img{
+        width: 320px;
+    }
 
 
 }

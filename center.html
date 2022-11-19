@@ -5,14 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="icon" href="img/logo_icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/rwd.css">
     <title>會員中心</title>
 </head>
 <body>
     <!----- 頂部 ----->
     <div class="top">
         <a href="index.html"><img class="left" src="img/logo.png" alt="" /></a>
+        <i class="fa fa-bars" aria-hidden="true"></i>
+
         <ul>
             <li><a href="about.html">關於我們</a></li>
             <li><a href="education.html">教育推廣</a></li>
@@ -39,7 +43,7 @@
                 會員帳號 : 00010001<br><br>
                 名稱/暱稱 : Danny<br><br>
                 電話號碼 : 0900898000<br><br>
-                信箱 : danny001001@gmail.com<br><br>
+                信箱 :<br> danny001001@gmail.com<br><br>
             </p>
             <a class="Revise" href="">修改資料</a>
         </div>
@@ -148,6 +152,14 @@
         <p>本網站為緯育TibaMe前端工程師班第80期學員專題作品，本平台僅供學習、展示之用。<br>
             https://taeanimal.org.tw/index.php</p>
     </div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+        $('.fa').click(function(){
+          $('ul').slideToggle();
+        })
+      })
+    </script>
+    
 </body>
 </html>
