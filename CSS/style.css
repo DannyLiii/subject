@@ -385,9 +385,10 @@ h2 {
 .edu_left,
 .edu_right {
     width: 479px;
-    padding: 0 70px;
+    padding: 0 20px;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0 auto;
 }
 
 .date_box {
@@ -418,7 +419,7 @@ h2 {
 .line1 {
     position: absolute;
     background-color: #0073B4;
-    left: 440px;
+    left: 380px;
     top: 20px;
     padding: 3px 45px;
 
@@ -428,7 +429,7 @@ h2 {
 .line2 {
     position: absolute;
     background-color: #0073B4;
-    left: 525px;
+    left: 465px;
     top: -67px;
     padding: 46px 3px;
 
@@ -564,7 +565,7 @@ h2 {
     background-image: url(../img/contact_background.png);
     background-repeat: no-repeat;
     margin: 50px auto 0px;
-    padding-top: 100px;
+    
 }
 
 .contact ul {

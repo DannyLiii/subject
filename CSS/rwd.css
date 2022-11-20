@@ -88,13 +88,13 @@
         margin-bottom: 20px;
         margin-top: 20px;
     }
-
-    .tit1 h1 {
+    
+    .tit1 h1, .tit2 h1{
         font-size: 1.5em;
         margin-top: 0;
     }
 
-    .tit1 h2 {
+    .tit1 h2, .tit2 h1{
         font-size: 0.5em;
     }
 
@@ -103,9 +103,9 @@
 
     .more,
     .more2 {
-        font-size: 16px;
+        font-size: 12px;
         margin: 20px auto 0;
-        padding: 105x 15px;
+        padding: 10px 15px;
         text-decoration: none;
         border-radius: 10px;
         box-shadow: none;
@@ -781,6 +781,123 @@
         width: 350px;
     }
 
+    /* -----------------index----------------- */
+  
+    .slideshow-container{
+        width: 414px;
+        height: auto;
+    }
+
+    .ach_li1,
+    .ach_li2{
+        width: 90px;
+        height: 90px;
+        margin: 5px;
+        padding: 0px;
+        padding-top: 25px;
+        font-size: 10px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .str{
+        width: 414px;
+        margin: 20px auto;
+        padding: 50px 0;
+    }
+
+    .tit2{
+        width: 134.6px;
+        height: 82.59px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .str li{
+        width: 95px;
+        height: auto;
+        margin: 0 15px 20px;
+    }
+
+    .dog div img{
+        width: 100px;
+    }
+
+    .dog p{
+        display: none;
+    }
+
+    .dog h3{
+        font-size: 20px;
+    }
+
+    .edu_left,
+    .edu_right {
+        width: 414px;
+        padding: 0 20px;
+    }   
+
+    .in_edu img{
+        width: 300px;
+        height: 200px;
+        margin: 0 35px;
+    }
+
+    .date {
+        border: 5px solid #0073B4;
+        font-size: 15px;
+        padding: 2px 15px;
+        left: 10px;
+        top: -10px;
+    }
+
+    .line1 {
+        left: 305px;
+        top: 0px;
+        padding: 3px 25px;
+    }
+    
+    .line2 {
+        left: 350px;
+        top: -45px;
+        padding: 25px 3px;
+    }
+
+    .edu_bot{
+        margin-bottom: 40px;
+    }
+    .edu p{
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+    .read{
+        font-size: 10px;
+    }
+
+    .con{display: none;}
+
+
+    .contact{
+        width: 414px;
+        height: auto;
+        background-position: center;
+        background-size: cover;
+        margin-top: 0;
+        padding-top: 40px;
+        flex-direction: column;
+    }
+
+    .contact ul{
+        flex-wrap: wrap;
+    }
+
+    .icon{
+        margin: 15px;
+    }
+
+
 }
 
 
@@ -983,6 +1100,95 @@
     .tab_content img{
         width: 320px;
     }
+
+    /* -----------------index----------------- */
+  
+    .slideshow-container{
+        width: 375px;
+    }
+
+    .ach_li1,
+    .ach_li2{
+        height: 84px;
+    }
+
+    .str{
+        width: 375px;
+    }
+
+    .str li{
+        margin: 0 10px 20px;
+    }
+
+    .edu_left,
+    .edu_right {
+        width: 375px;
+        padding: 0 20px;
+    }   
+
+    .in_edu img{
+        width: 275px;
+        height: 175px;
+        margin: 0 25px ;
+    }
+
+    .date {
+        border: 5px solid #0073B4;
+        font-size: 15px;
+        padding: 2px 15px;
+        left: 10px;
+        top: -10px;
+    }
+
+    .line1 {
+        left: 270px;
+        top: 0px;
+        padding: 3px 25px;
+    }
+    
+    .line2 {
+        left: 315px;
+        top: -45px;
+        padding: 25px 3px;
+    }
+
+    .edu_bot{
+        margin-bottom: 40px;
+    }
+    .edu p{
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+    .read{
+        font-size: 10px;
+    }
+
+    .con{display: none;}
+
+
+    .contact{
+        width: 375px;
+        height: auto;
+        background-position: center;
+        background-size: cover;
+        margin-top: 0;
+        padding-top: 40px;
+        flex-direction: column;
+    }
+
+    .contact ul{
+        flex-wrap: wrap;
+    }
+
+    .icon{
+        margin: 15px;
+    }
+
+
+
+
+
+
 
 
 }
