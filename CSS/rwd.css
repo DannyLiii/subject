@@ -898,6 +898,73 @@
     }
 
 
+    /* -----------------login----------------- */
+
+    .log{
+        flex-direction: column;
+    }
+    .log_in{
+        width: 95%;
+        order: 1;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .register{
+        width: 95%;
+        order: 3;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .log_line{
+       order: 2;
+       margin: 25px auto 0;
+       width: 370px;
+       height: 5px;
+    }
+
+    .an2{
+        margin: 15px auto;
+        width: 350px;
+        height: 30px;
+
+    }
+    .an2 a p{
+        margin-top: 6px;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .an2 a img {
+        width: 20px;
+        margin-left: 90px;
+        margin-top: 5px;
+    }
+
+    .ano1{
+        width: 90px;
+    }
+
+    .not_yet{
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .log_bot > a{
+        width: 93px;
+        display: block;
+        margin-left: 286px;
+    }
+    
+    .re_bot input,
+    .log_bot input {
+        border-radius: 10px;
+    }
+
+
+
+
+    
 }
 
 
@@ -1185,10 +1252,34 @@
     }
 
 
+    /* -----------------login----------------- */
 
+    .log_line{
+       width: 320px;
 
+    }
 
+    .an2{
+        width: 300px;
+    }
+    .an2 a p{
+        margin-top: 6px;
+        margin-left: 10px;
+        font-size: 10px;
+    }
 
+    .an2 a img {
+        margin-left: 70px;
+    }
 
+    .ano1{
+        width: 70px;
+    }
+
+    .log_bot > a{
+        width: 93px;
+        display: block;
+        margin-left: 249px;
+    }
 
 }
