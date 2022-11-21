@@ -3,7 +3,9 @@
     box-sizing: border-box;
 }
 
+
 @media screen and (max-width:414px) {
+    
 
     /* -----------------menu----------------- */
     .top {
@@ -276,7 +278,7 @@
 
     .success {
         width: auto;
-        height: 470px;
+        height: 400px;
         margin-top: 140px;
     }
 
@@ -292,6 +294,13 @@
         font-size: 20px;
     }
 
+    .change_center{
+        display: block;
+        width: 120px;
+        margin: 35px auto;
+        font-size: 20px;
+        
+    }
 
     /* -----------------edu----------------- */
 
@@ -470,7 +479,11 @@
     .vol_box{
         margin-bottom: 20px;
         padding: 10px;
+        height: 315px;
+        overflow: hidden;
     }
+    .arrow_left, .arrow_right{margin-top: 135px;}
+
     
     .p1,
     .p2,
@@ -785,7 +798,8 @@
   
     .slideshow-container{
         width: 414px;
-        height: auto;
+        height: 174.656px;
+        overflow: hidden;
     }
 
     .ach_li1,
@@ -923,6 +937,9 @@
        height: 5px;
     }
 
+    .another{
+        padding-left: 15px;
+    }
     .an2{
         margin: 15px auto;
         width: 350px;
@@ -1097,14 +1114,19 @@
     /* -----------------volunteer----------------- */
 
     .vol_box{
-        padding: 5px;
+        width: 360px;
+        padding: 5px 10px;
+    }
+    .arrow_left a img,.arrow_right a img{
+        width: 30px;
     }
     
     .p1,
     .p2,
     .p3 {
-        margin: 15px 45px 10px 50px;
+        margin: 15px 50px 10px 46px;
     }
+    .arrow_left, .arrow_right{margin-top: 135px;}
 
 
     /* -----------------sponsored----------------- */
@@ -1172,6 +1194,8 @@
   
     .slideshow-container{
         width: 375px;
+        height: 158.203px;
+        overflow: hidden;
     }
 
     .ach_li1,
