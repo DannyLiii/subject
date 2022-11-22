@@ -819,6 +819,8 @@ h3 {
 
 .dog_box {
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
 }
 .dog_2 {
     margin-top: 30px;

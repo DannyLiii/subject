@@ -510,6 +510,8 @@
     }
     .dog_box{
         width: 180px;
+        height: auto;
+        flex-wrap: wrap;
     }
     .dog_1 a img, .dog_2 a img{
         width: 150px;
